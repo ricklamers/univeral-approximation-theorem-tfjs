@@ -4,6 +4,9 @@ An interactive visualization of the Universal Approximation Theorem using Tensor
 
  [Live Demo](https://ricklamers.github.io/univeral-approximation-theorem-tfjs/)
 
+ 
+<img width="500" alt="Screenshot 2024-11-29 at 2 08 16 PM" src="https://github.com/user-attachments/assets/2e3162ad-863d-40ad-bad3-fb2ef550c845">
+
 ## Overview
 
 The Universal Approximation Theorem is a fundamental result in neural network theory. It states that a feedforward neural network with a single hidden layer containing a finite number of neurons can approximate any continuous function on compact subsets of ℝⁿ, under mild assumptions about the activation function.
