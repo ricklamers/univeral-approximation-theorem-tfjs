@@ -534,6 +534,10 @@ function App() {
   return (
     <div className="app-container">
       <h1>Universal Approximation Theorem Demo</h1>
+      <p className="instructions">
+        Draw any continuous function on the canvas by clicking and dragging. The neural network will learn to approximate your function.
+        The blue line shows your drawn function, and the red line shows the neural network's approximation.
+      </p>
       <div className="stats-container">
         <div className={`stat-box ${isTraining ? 'active' : ''}`}>
           <span className="stat-label">Loss:</span>
