@@ -1,8 +1,54 @@
-# React + Vite
+# Universal Approximation Theorem Visualization
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive visualization of the Universal Approximation Theorem using TensorFlow.js. This web application demonstrates how neural networks can approximate any continuous function, given enough neurons in a single hidden layer.
 
-Currently, two official plugins are available:
+ [Live Demo](https://ricklamers.github.io/univeral-approximation-theorem-tfjs/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Overview
+
+The Universal Approximation Theorem is a fundamental result in neural network theory. It states that a feedforward neural network with a single hidden layer containing a finite number of neurons can approximate any continuous function on compact subsets of ℝⁿ, under mild assumptions about the activation function.
+
+This visualization allows you to:
+- Interactively draw any continuous function
+- Watch a neural network learn to approximate your drawn function
+- Adjust network parameters in real-time
+- Visualize the learning process
+
+## Technology Stack
+
+- React + Vite for the frontend framework
+- TensorFlow.js for neural network implementation
+- GitHub Actions for automated deployment
+- GitHub Pages for hosting
+
+## Local Development
+
+1. Clone the repository:
+```bash
+git clone https://github.com/ricklamers/univeral-approximation-theorem-tfjs.git
+cd univeral-approximation-theorem-tfjs
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start the development server:
+```bash
+npm run dev
+```
+
+4. Open your browser and navigate to `http://localhost:5173`
+
+## Deployment
+
+The project is automatically deployed to GitHub Pages using GitHub Actions. Any push to the main branch will trigger a new deployment, or you can manually trigger it from the Actions tab in the repository.
+
+## Contributing
+
+Contributions are welcome! Feel free to open issues or submit pull requests.
+
+## License
+
+MIT License - feel free to use this code for your own projects or educational purposes.
